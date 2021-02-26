@@ -1,0 +1,68 @@
+/*
+*
+Academy fonts
+*
+*/
+
+$font_primary: 'Cairo',
+sans-serif;
+$font_regular: 'Noto Kufi Arabic',
+"Open Sans",
+"Arial";
+$font_bold: 'Noto Kufi Arabic Bold',
+"Open Sans",
+"Arial";
+$font_awesome: 'FontAwesome';
+
+$font_size: 1.6rem;
+
+@mixin htags($factor: 1rem) {
+    h1 {
+        font-size: 2*$factor;
+    }
+
+    h2 {
+        font-size: 1.6*$factor;
+    }
+
+    h3 {
+        font-size: 1.2*$factor;
+    }
+
+    h4 {
+        font-size: 1.1*$factor;
+    }
+
+    h5 {
+        font-size: $factor;
+    }
+
+    h6 {
+        font-size: 0.9*$factor;
+    }
+}
+
+/* 
+*
+ Academy screen sizes
+*
+*/
+$x-large: 1200px;
+$large:1024px;
+$medium: 950px;
+$small: 750px;
+$x-small:460px;
+
+
+/* 
+*
+ Academy color
+*
+*/
+$color_primary: #616571;
+$color_text: #666;
+$color_header_links: #fff;
+$color_links: #616571;
+$color_links_hover: #E43F21;
+$color_border: #f2f2f2;
+$color_headings: #616571;
